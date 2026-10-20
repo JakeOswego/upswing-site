@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.upswingpro.com" }], "destination": "https://upswingpro.com/$1", "permanent": true }
+  ]
+}
