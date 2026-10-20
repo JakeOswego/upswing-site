@@ -11,7 +11,7 @@ product notes in its CLAUDE.md), Pulse at app.upswingpro.com/dashboard.
   from `no-reply@upswingpro.com` to `DEMO_TO` (default `jake@upswingpro.com`),
   reply-to = the visitor. Needs Vercel env var `RESEND_API_KEY` (Secret).
   Hidden `website` field is a bot trap.
-- `vercel.json`: clean URLs (`/story`), www → apex redirect.
+- `vercel.json`: clean URLs (`/story`). Domains are set in Vercel: www.upswingpro.com is the main address and upswingpro.com redirects to it (Vercel's setting; don't add a redirect here too or they loop).
 - Repo is public on purpose (no secrets in it) so Claude's commits deploy on
   the Vercel Hobby plan.
 - Copy rules: UpSwing is a blank canvas: say "your sales process", "your
