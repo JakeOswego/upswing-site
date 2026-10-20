@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>UpSwing: training and coaching for home services teams</title>
-<meta name="description" content="One place for your sales process, your training and your company resources, on every phone. See exactly where to coach. Built for plumbing, HVAC and electrical companies.">
+<meta name="description" content="One place for your sales process, your training and your company resources, on every phone. See exactly where to coach. Built for home service companies.">
 <meta property="og:title" content="UpSwing: training that sticks, coaching that's aimed">
-<meta property="og:description" content="One place for your sales process, your training and your company resources, on every phone. Built for plumbing, HVAC and electrical companies.">
+<meta property="og:description" content="One place for your sales process, your training and your company resources, on every phone. Built for home service companies.">
 <meta property="og:url" content="https://www.upswingpro.com/">
 <meta property="og:type" content="website">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -25,21 +25,24 @@
     <a class="hide-sm" href="#dashboard">Dashboard</a>
     <a class="hide-sm" href="/story">Our story</a>
     <a href="https://app.upswingpro.com">Sign in</a>
-    <a class="btn solid" href="#demo">Book a demo</a>
+    <a class="btn solid" href="#demo"><span class="xs-hide">Book a demo</span><span class="xs-show">Demo</span></a>
   </nav>
 </div></header>
 
 <main>
 <section class="hero" aria-labelledby="hero-h"><div class="wrap">
   <div class="hero-copy">
-    <span class="label">For plumbing, HVAC &amp; electrical companies</span>
+    <span class="label">For home service companies</span>
     <h1 id="hero-h">Training that sticks. <span class="accent">Coaching that's aimed.</span></h1>
     <p class="lede">UpSwing puts your sales process, your training and your company resources on every phone in every truck, and shows managers exactly where each person needs help.</p>
     <div class="ctas">
       <a class="btn solid" href="#demo">Book a demo</a>
       <a class="btn ghost" href="/story">Why we built it</a>
     </div>
-    <div class="trades" aria-label="Built for"><span>Plumbing</span><span>HVAC</span><span>Electrical</span><span>Phone, tablet and desktop</span><span>Works with no signal</span></div>
+    <div style="display:grid;gap:8px">
+    <div class="trades" aria-label="Built for"><span>Plumbing</span><span>HVAC</span><span>Electrical</span><span>Roofing</span><span>Solar</span><span>Pest control</span><span>And more</span></div>
+    <div class="trades" aria-label="Works on"><span>Phone, tablet and desktop</span><span>Works with no signal</span></div>
+    </div>
   </div>
 
   <div class="stage">
@@ -206,7 +209,7 @@
     <label for="f-company">Company<input id="f-company" name="company" autocomplete="organization" required maxlength="120"></label>
     <label for="f-email">Email<input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200"></label>
     <label for="f-phone">Phone <span class="opt">(optional)</span><input id="f-phone" name="phone" type="tel" autocomplete="tel" maxlength="40"></label>
-    <label for="f-trade">Trade<select id="f-trade" name="trade"><option>Plumbing</option><option>HVAC</option><option>Electrical</option><option selected>More than one</option></select></label>
+    <label for="f-trade">Trade(s)<input id="f-trade" name="trade" list="trade-list" maxlength="100" placeholder="e.g. HVAC and plumbing"><datalist id="trade-list"><option value="Plumbing"></option><option value="HVAC"></option><option value="Electrical"></option><option value="Roofing"></option><option value="Solar"></option><option value="Windows &amp; doors"></option><option value="Garage doors"></option><option value="Pest control"></option><option value="Landscaping &amp; lawn care"></option><option value="Pools &amp; spas"></option><option value="Water treatment"></option><option value="Insulation"></option><option value="Remodeling"></option><option value="Restoration"></option><option value="Painting"></option><option value="Cleaning"></option><option value="More than one"></option></datalist></label>
     <label for="f-size">Team size<select id="f-size" name="size"><option>1–10</option><option selected>11–25</option><option>26–50</option><option>51+</option></select></label>
     <label class="full" for="f-note">Anything we should know? <span class="opt">(optional)</span><textarea id="f-note" name="note" maxlength="2000"></textarea></label>
     <label class="hp" aria-hidden="true">Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label>

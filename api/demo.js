@@ -19,7 +19,7 @@ export default async function handler(req, res) {
     company: clean(b.company, 120),
     email: clean(b.email, 200),
     phone: clean(b.phone, 40),
-    trade: clean(b.trade, 40),
+    trade: clean(b.trade, 100),
     size: clean(b.size, 20),
     note: String(b.note ?? '').trim().slice(0, 2000),
   }
@@ -31,7 +31,7 @@ export default async function handler(req, res) {
 
   const rows = [
     ['Name', f.name], ['Company', f.company], ['Email', f.email], ['Phone', f.phone || '-'],
-    ['Trade', f.trade], ['Team size', f.size], ['Notes', f.note || '-'],
+    ['Trade', f.trade || '-'], ['Team size', f.size], ['Notes', f.note || '-'],
   ]
   const text = rows.map(([k, v]) => `${k}: ${v}`).join('\n')
   const html = `<h2>New demo request</h2><table cellpadding="6">${rows

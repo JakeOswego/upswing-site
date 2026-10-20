@@ -1,6 +1,8 @@
 # UpSwing website (upswingpro.com)
 
-Public sales site for UpSwing (Academy + Pulse). The apps live elsewhere:
+Public sales site for UpSwing (Academy + Pulse), aimed at home service
+companies in general (not only plumbing/HVAC/electrical). The demo form's
+trade is free text with suggestions (`datalist`). The apps live elsewhere:
 Academy at app.upswingpro.com (repo `JakeOswego/Upswing-Academy`, which has the
 product notes in its CLAUDE.md), Pulse at app.upswingpro.com/dashboard.
 
