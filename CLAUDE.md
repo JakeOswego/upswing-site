@@ -20,7 +20,8 @@ product notes in its CLAUDE.md), Pulse at app.upswingpro.com/dashboard.
 - Copy rules: UpSwing is a blank canvas: say "your sales process", "your
   training"; never imply it comes pre-loaded (only a few starter templates).
   Only describe features the app has today. No emojis. Pricing is not shown
-  yet ("founding companies, talk to us").
+  yet, and the founding-company offer is off the site (owner's choice: it
+  reads as a startup); it's offered privately in sales conversations.
 - Owner: Jake Wetherbee, founder, sales manager, ~20 years in the trades.
   Email `jake@upswingpro.com` (Cloudflare Email Routing catch-all → the
   UpSwing Gmail). No phone number on the site.
