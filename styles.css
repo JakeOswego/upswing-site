@@ -1,5 +1,6 @@
 /* UpSwing website. One 1160px column, sections alternate plain / tinted.
-   Colors match the app (accent #1f7a5a). */
+   Colors match the app (accent #1f7a5a). Light only, on purpose: a sales
+   site keeps one look on every device (the apps follow the device). */
 :root {
   --bg: #f6f7f9;
   --paper: #ffffff;
@@ -17,19 +18,6 @@
   --radius: 10px;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0f1512; --paper: #161e1a; --tint: #14241c; --ink: #e6efe9; --muted: #9db0a4;
-    --line: #2a3a31; --accent: #3fbf8f; --accent-ink: #06140d; --accent-soft: #1d3a2d;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0f1512; --paper: #161e1a; --tint: #14241c; --ink: #e6efe9; --muted: #9db0a4;
-  --line: #2a3a31; --accent: #3fbf8f; --accent-ink: #06140d; --accent-soft: #1d3a2d;
-  color-scheme: dark;
-}
-
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--body); }

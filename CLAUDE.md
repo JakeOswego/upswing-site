@@ -8,7 +8,8 @@ product notes in its CLAUDE.md), Pulse at app.upswingpro.com/dashboard.
 
 - Plain HTML + CSS, no build step: `index.html`, `story.html` (Our story),
   `styles.css`, `demo.js` (form + footer year), `favicon.svg` (same logo as
-  the app). Colors match the app (accent `#1f7a5a`).
+  the app). Colors match the app (accent `#1f7a5a`). Light only (owner's choice): no
+  dark-mode styles, `color-scheme: light`.
 - `api/demo.js` (Vercel function): "Book a demo" form → email through Resend
   from `no-reply@upswingpro.com` to `DEMO_TO` (default `jake@upswingpro.com`),
   reply-to = the visitor. Needs Vercel env var `RESEND_API_KEY` (Secret).
