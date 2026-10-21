@@ -198,3 +198,12 @@ footer .wrap { display: flex; gap: 20px; flex-wrap: wrap; justify-content: space
 footer nav { display: flex; gap: 18px; flex-wrap: wrap; }
 footer a { text-decoration: none; }
 footer a:hover { text-decoration: underline; }
+
+/* FAQ */
+.faq { display: grid; gap: 10px; }
+.faq details { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; }
+.faq summary { cursor: pointer; font-weight: 700; font-size: 1.05rem; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; color: var(--accent); font-weight: 800; }
+.faq details[open] summary::after { content: "–"; }
+.faq details p { margin-top: 10px; color: var(--muted); }
