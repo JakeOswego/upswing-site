@@ -19,8 +19,10 @@ product notes in its CLAUDE.md), Pulse at app.upswingpro.com/dashboard.
   the Vercel Hobby plan.
 - Copy rules: UpSwing is a blank canvas: say "your sales process", "your
   training"; never imply it comes pre-loaded (only a few starter templates).
-  Only describe features the app has today. No emojis. Pricing is not shown
-  yet, and the founding-company offer is off the site (owner's choice: it
+  Only describe features the app has today. No emojis. Pricing section (`#pricing`): priced by field people
+  (techs + reps), managers/office free, everything included: Starter $299
+  (≤10), Team $499 (11–25), Company $799 (26–50), Enterprise custom (51+ /
+  multi-location); yearly = 2 months free; setup help from $1,500. The founding-company offer is off the site (owner's choice: it
   reads as a startup); it's offered privately in sales conversations.
 - Owner: Jake Wetherbee, founder, sales manager, ~20 years in the trades.
   Email `jake@upswingpro.com` (Cloudflare Email Routing catch-all → the
