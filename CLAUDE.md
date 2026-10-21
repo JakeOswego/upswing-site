@@ -27,7 +27,8 @@ product notes in its CLAUDE.md), Pulse at app.upswingpro.com/dashboard.
 - Owner: Jake Wetherbee, founder, sales manager, ~20 years in the trades.
   Email `jake@upswingpro.com` (Cloudflare Email Routing catch-all → the
   UpSwing Gmail). No phone number on the site.
-- Offline wording must stay honest: only items saved with "Save for offline"
+- Offline is not a headline (owner's call): only the FAQ mentions it.
+  Wording must stay honest: only items saved with "Save for offline"
   open with no signal; courses, quizzes and progress need a connection.
   Sales come in by importing the CRM's sales report (direct CRM
   connections are "on the way", not available). FAQ section `#faq` answers
